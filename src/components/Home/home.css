@@ -1,0 +1,191 @@
+.home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #FBF8F1;
+    /* margin-top: 40px; */
+}
+
+.homeLogo {
+    padding-bottom: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border-right: 2px dashed #417D7A; */
+}
+
+.homeLogo h2 {
+    margin: 20px 10px;
+    color: #85586F;
+font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 27px;
+    text-align:center;
+    font-weight: 300;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    border: 1px solid #E2C2B9
+}
+
+.users {
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 !important;
+}
+
+.buttonsUser {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    gap: 10px
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 70px !important;
+    border: none;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    color: #F8ECD1 !important;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.buttonsUser a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: white;
+    opacity: 0.9;
+
+}
+
+.sBtn {
+
+    background-color: #AC7D88 !important;
+}
+
+.lBtn {
+    background-color: #4E9F3D !important;
+}
+
+ h3 {
+    font-family: 'Square Peg';
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    font-weight: 700 !important;
+}
+
+
+@media only screen and (max-width: 680px) {
+    .home {
+        margin-top: 0;
+        flex-direction: column;
+        padding: 10px;
+        width: 98%;
+    }
+
+   
+
+    .homeLogo h2 {
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .buttons {
+        margin: 20px 0 !important;
+    }
+
+    .buttonsUser {
+        flex-direction: column;
+
+    }
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 5px 0 !important;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width: 681px) and (max-width:800px) {
+    .home {
+        margin-top: 0;
+        padding-top: 20px;
+        align-items: flex-start;
+    }
+
+    .homeLogo h2 {
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .buttons {
+        margin: 20px 0;
+    }
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .users {
+        justify-content: flex-start;
+    }
+
+}
